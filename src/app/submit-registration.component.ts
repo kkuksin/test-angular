@@ -6,7 +6,7 @@ import { Md5 } from 'ts-md5/dist/md5';
 
 @Component({
   selector: 'submit-registration',
-  template: `<button type="button" (click)="sendInfo($event)">Register</button>`,
+  template: `<button type="button" (click)="sendInfo($event)">Login</button>`,
 })
 export class SubmitRegistration implements OnInit {
   postRequest: any;
