@@ -7,10 +7,10 @@ import { DataService} from './data.service';
     (resolved)="$event && submit($event)"
     required
     siteKey="6LcKNEIUAAAAAPGe3VDGzUcqXyi5iyMD-IPhiXej">
-  </re-captcha> {{captchaCode}}`,
+  </re-captcha>}`,
 })
 
-export class ReCaptchaCustom implements OnInit{
+export class ReCaptchaCustom implements OnInit {
   constructor(private dataService: DataService) { }
 
   ngOnInit() {
